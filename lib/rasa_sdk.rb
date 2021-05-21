@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "rasa_sdk/version"
+require_relative 'rasa_sdk/version'
+require_relative 'rasa_sdk/events/base'
+require_relative 'rasa_sdk/events/slot_set'
 
-module RasaSdk
+module RasaSDK
   class Error < StandardError; end
-  # Your code goes here...
 end
